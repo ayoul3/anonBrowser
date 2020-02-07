@@ -1,0 +1,10 @@
+*
+!icons
+!popup
+!tests
+!*.js
+!*.py
+!*.json
+!.gitignore
+!.*md
+!*.sh

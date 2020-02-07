@@ -1,0 +1,29 @@
+{
+
+    "description": "Randomize browser properties",
+    "manifest_version": 2,
+    "name": "Anon browser",
+    "version": "0.61",
+    "icons": {
+      "48": "icons/icon-48.jpg"
+    },  
+    "permissions": [
+      "http://*/*", "https://*/*" , "webRequest", "webRequestBlocking", "storage"
+    ],   
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/icon-16.jpg",
+            "32": "icons/icon-32.jpg"
+        },
+        "browser_style": true,
+        "default_popup": "popup/settings.html"
+    },
+    "applications": {
+      "gecko": {
+      "id": "@ayoul3"
+    }
+  }
+}

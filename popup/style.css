@@ -1,0 +1,32 @@
+html, body {
+    width: 250px;
+    padding-top: 5px;
+    background-color: #f2f2f2;
+}
+.ext-main-choices{
+    padding-top:5px;
+}
+.ext-anon-img{
+    border-radius:50%;
+    float: left;
+    padding-left:5px;
+}
+.ext-anon-title{
+    font-weight:bold;
+    font-size:1.2em;
+    text-align:center;
+}
+.ext-main-choices div {
+    cursor:pointer;
+    padding: 5px 5px;
+    color: #033068;
+}
+
+.ext-main-choices div:hover {
+    background-color: #cfd7f2;
+}
+#ext-anon-check-enabled{
+    display:inline;
+}
+
+
